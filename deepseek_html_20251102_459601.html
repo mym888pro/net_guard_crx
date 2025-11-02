@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 400px; padding: 15px; }
+    .secure { color: green; }
+    .insecure { color: red; }
+    .log-item { margin-bottom: 10px; padding: 8px; border-left: 3px solid; }
+    .secure-log { border-left-color: green; background-color: #f0f9f0; }
+    .insecure-log { border-left-color: red; background-color: #fdf0f0; }
+  </style>
+</head>
+<body>
+  <h3>网络连接安全检测</h3>
+  <div id="currentStatus">
+    <p>正在分析当前页面...</p>
+  </div>
+  <div id="securityLogs"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
